@@ -1,0 +1,2 @@
+# icons.txt
+Lo mismo que la carpeta images, pero con los iconos.
