@@ -1,0 +1,2 @@
+# images.txt
+En esta carpeta están todas las imágenes que agregué en la pantalla principal.
