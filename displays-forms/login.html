@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style_general.css" />
+    <title>Inicio de sesión - Hotel "Mar Profundo"</title>
+  </head>
+  <body id="1">
+    <div id="all-login" class="global-container">
+      <div id="login" class="container">
+        <fieldset id="form-login" class="form-box">
+          <legend id="title-login" class="title">Inicio de sesión</legend>
+          <!-- This is for user -->
+          <label id="label-user-login" class="labels" for="input-user-login">
+            Usuario:
+          </label>
+          <br />
+          <input
+            id="input-user-login"
+            class="inputs"
+            type="text"
+            placeholder="Ingresa tu usuario..."
+            required
+          />
+          <br />
+          <br />
+          <!-- This is for password -->
+          <label id="label-pass-login" class="labels" for="input-pass-login">
+            Contraseña:
+          </label>
+          <br />
+          <input
+            id="input-pass-login"
+            class="inputs"
+            type="password"
+            placeholder="Ingresa tu contraseña..."
+            required
+          />
+          <br />
+          <label id="label-error" class="labels labels-error"> Error </label>
+          <br />
+          <!-- This is a button -->
+          <div class="all-buttons">
+            <a href="../index.html">
+              <button id="button-cancel-login" class="buttons" type="button">
+                Cancelar
+              </button>
+            </a>
+            <button id="button-accept-login" class="buttons" type="button">
+              Aceptar
+            </button>
+          </div>
+          <div id="account-register">
+            <p class="labels labels-register">
+              ¿No tienes cuenta?
+              <a href="register.html">
+                <button class="button-create">Crear cuenta</button>
+              </a>
+            </p>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+    <script src="script_general.js"></script>
+  </body>
+</html>

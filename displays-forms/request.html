@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style_general.css" />
+    <title>Solicitud - Motel "Mar Profundo"</title>
+  </head>
+  <body id="3">
+    <div id="all-request" class="global-container">
+      <div id="request" class="container">
+        <fieldset id="form-request" class="form-box">
+          <legend id="title-request" class="title">Solicitar</legend>
+          <!-- It's no. target -->
+          <label id="label-card" class="labels" for="input-card">
+            Número de tarjeta:
+          </label>
+          <br />
+          <input
+            id="input-card"
+            class="inputs"
+            type="text"
+            placeholder="Ingresa tu número de tarjeta..."
+          />
+          <br />
+          <label id="label-card-error" class="labels labels-error" for="">
+            Error
+          </label>
+          <br />
+          <!-- It's date -->
+          <label id="label-date" class="labels" for="">
+            Fecha de caducidad:
+          </label>
+          <br />
+          <input
+            id="input-date"
+            class="inputs"
+            type="text"
+            placeholder="--/----"
+          />
+          <br />
+          <label id="label-date-error" class="labels labels-error" for="">
+            Error
+          </label>
+          <br />
+          <!-- It's code -->
+          <label id="label-code" class="labels" for="">
+            Código de seguridad:
+          </label>
+          <br />
+          <input
+            id="input-code"
+            class="inputs"
+            type="text"
+            placeholder="Ingresa el código de seguridad..."
+          />
+          <br />
+          <label id="label-code-error" class="labels labels-error" for="">
+            Error
+          </label>
+          <br />
+          <!-- It's number phone -->
+          <label id="label-number-phone" class="labels" for="">
+            Número de teléfono:
+          </label>
+          <br />
+          <input
+            id="input-number-phone"
+            class="inputs"
+            type="tel"
+            pattern="[0-9]+"
+            name=""
+            placeholder="Ej. 6341089150"
+          />
+          <br />
+          <label id="label-number-error" class="labels labels-error" for="">
+            Error
+          </label>
+          <br />
+          <!-- This is a button -->
+          <div class="all-buttons">
+            <a href="../index.html">
+              <button id="button-cancel-request" class="buttons" type="button">
+                Cancelar
+              </button>
+            </a>
+            <button id="button-accept-request" class="buttons" type="button">
+              Aceptar
+            </button>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+    <script src="script_general.js"></script>
+  </body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style_general.css" />
+    <title>Registrarse - Hotel "Mar Profundo"</title>
+  </head>
+  <body id="2">
+    <div id="all-register" class="global-container">
+      <div id="register" class="container">
+        <fieldset id="form-register" class="form-box">
+          <legend id="title-register" class="title">Registrarse</legend>
+          <!-- This is user -->
+          <label
+            id="label-user-register"
+            class="labels"
+            for="input-user-register"
+          >
+            Crea un usuario:
+          </label>
+          <br />
+          <input
+            id="input-user-register"
+            class="inputs"
+            type="text"
+            placeholder="Ingresa un nuevo usuario..."
+          />
+          <br />
+          <label id="label-user-error" class="labels labels-error" for="">
+            Error
+          </label>
+          <br />
+          <!-- It's email -->
+          <label
+            id="label-email-register"
+            class="labels"
+            for="input-email-register"
+          >
+            Correo electrónico:
+          </label>
+          <br />
+          <input
+            id="input-email-register"
+            class="inputs"
+            type="email"
+            placeholder="Ingresa tu correo electrónico..."
+          />
+          <br />
+          <label id="label-email-error" class="labels labels-error" for="">
+            Error
+          </label>
+          <br />
+          <!-- It's new password -->
+          <label
+            id="label-pass-register"
+            class="labels"
+            for="input-pass-register"
+          >
+            Crea una contraseña:
+          </label>
+          <br />
+          <input
+            id="input-pass-register"
+            class="inputs"
+            type="password"
+            name="password"
+            placeholder="Ingresa tu nueva contraseña..."
+          />
+          <br />
+          <label id="label-newpass-error" class="labels labels-error" for="">
+            Error
+          </label>
+          <br />
+          <!-- Confirm password -->
+          <label id="label-confirm-pass" class="labels" for="">
+            Confirma tu contraseña:
+          </label>
+          <br />
+          <input
+            id="input-confirm-pass"
+            class="inputs"
+            type="password"
+            name=""
+            placeholder="Confirma tu contraseña..."
+          />
+          <br />
+          <label
+            id="label-confirmpass-error"
+            class="labels labels-error"
+            for=""
+          >
+            Error
+          </label>
+          <br />
+          <!-- This is a button -->
+          <div class="all-buttons">
+            <a href="login.html">
+              <button id="button-cancel-register" class="buttons" type="button">
+                Cancelar
+              </button>
+            </a>
+            <button id="button-accept-register" class="buttons" type="button">
+              Aceptar
+            </button>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+    <script src="script_general.js"></script>
+  </body>
+</html>

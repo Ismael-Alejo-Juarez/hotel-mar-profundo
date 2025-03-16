@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+}
+
+.global-container{
+    position: fixed;
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position: fixed;
+    display: flex;
+}
+
+.form-box{
+    padding: 20px;
+    border: 2px solid #CCC;
+}
+
+.title, .labels, .inputs, .buttons{
+    font-family: 'Arial';
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.labels{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.inputs, .buttons{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.inputs{
+    border: 1px solid #888;
+    margin: 10px 0px 3px 0px;
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.all-buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons{
+    margin: 10px;
+    padding: 5px 20px 5px 20px;
+}
+
+.buttons:hover, .button-create:hover{
+    cursor: pointer;
+}
+
+/* Estos se van a editar desde JavaScript */
+.labels-error{
+    color: #FF3333;
+    font-size: 15px;
+    display: none;
+}
+
+#account-register{
+    display: flex;
+    justify-content: center;
+}
+
+.labels-register, .button-create {
+    font-family: 'Arial';
+    font-size: 15px;
+    font-weight: 300;
+
+    background-color: #0000;
+    border: 0px;
+}
+
+.button-create{
+    color: #3333FF;
+}
+
+#label-error{
+    display: none;
+    margin-top: 10px;
+    text-align: center;
+}
